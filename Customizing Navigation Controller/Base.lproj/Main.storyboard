@@ -11,8 +11,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Futura.ttc">
-            <string>Futura-CondensedExtraBold</string>
+        <array key="Lobster-Regular.ttf">
+            <string>Lobster-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -27,9 +27,13 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green" translatesAutoresizingMaskIntoConstraints="NO" id="2dj-Bf-q3K">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WD2-aL-jyI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLZ-hB-glv">
-                                <rect key="frame" x="20" y="565.5" width="335" height="70"/>
-                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="45"/>
+                                <rect key="frame" x="20" y="566" width="335" height="69"/>
+                                <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="45"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -46,7 +50,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LLZ-hB-glv" secondAttribute="trailing" constant="20" id="FyL-jD-YEc"/>
                             <constraint firstItem="2dj-Bf-q3K" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="IuB-9P-Z20"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2dj-Bf-q3K" secondAttribute="trailing" id="Kje-5Z-1YA"/>
+                            <constraint firstItem="WD2-aL-jyI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RQY-VD-uxS"/>
+                            <constraint firstItem="WD2-aL-jyI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dgg-tR-fFn"/>
                             <constraint firstItem="LLZ-hB-glv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rRf-Fd-o8b"/>
+                            <constraint firstItem="WD2-aL-jyI" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="rkO-QN-6dK"/>
+                            <constraint firstItem="WD2-aL-jyI" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tho-b4-77R"/>
                             <constraint firstItem="LLZ-hB-glv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.8" id="zcM-tq-ndk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -68,9 +76,13 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow" translatesAutoresizingMaskIntoConstraints="NO" id="ifq-mn-eta">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4jz-E6-bNq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OYJ-Nt-Pj2">
-                                <rect key="frame" x="20" y="565.5" width="335" height="70"/>
-                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="45"/>
+                                <rect key="frame" x="20" y="566" width="335" height="69"/>
+                                <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="45"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -82,11 +94,15 @@
                         <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ifq-mn-eta" firstAttribute="top" secondItem="NtD-tA-d0i" secondAttribute="top" id="AvG-x1-Qaj"/>
+                            <constraint firstItem="4jz-E6-bNq" firstAttribute="leading" secondItem="Exm-5C-BbG" secondAttribute="leading" id="Ilf-AI-Nq1"/>
                             <constraint firstItem="ifq-mn-eta" firstAttribute="bottom" secondItem="Exm-5C-BbG" secondAttribute="bottom" id="TPW-pM-vW4"/>
                             <constraint firstItem="OYJ-Nt-Pj2" firstAttribute="centerY" secondItem="NtD-tA-d0i" secondAttribute="centerY" multiplier="1.8" id="WDm-Q0-zE6"/>
+                            <constraint firstItem="4jz-E6-bNq" firstAttribute="trailing" secondItem="Exm-5C-BbG" secondAttribute="trailing" id="Wxf-3z-PFD"/>
+                            <constraint firstItem="4jz-E6-bNq" firstAttribute="bottom" secondItem="Exm-5C-BbG" secondAttribute="bottom" id="YYJ-S5-Tux"/>
                             <constraint firstItem="OYJ-Nt-Pj2" firstAttribute="leading" secondItem="Exm-5C-BbG" secondAttribute="leading" constant="20" id="hnT-Eo-QHh"/>
                             <constraint firstItem="ifq-mn-eta" firstAttribute="trailing" secondItem="Exm-5C-BbG" secondAttribute="trailing" id="mTU-AJ-fXn"/>
                             <constraint firstItem="ifq-mn-eta" firstAttribute="leading" secondItem="Exm-5C-BbG" secondAttribute="leading" id="qru-Zg-Hcg"/>
+                            <constraint firstItem="4jz-E6-bNq" firstAttribute="top" secondItem="NtD-tA-d0i" secondAttribute="top" id="uoS-ct-lHT"/>
                             <constraint firstItem="Exm-5C-BbG" firstAttribute="trailing" secondItem="OYJ-Nt-Pj2" secondAttribute="trailing" constant="20" id="vR9-zq-faj"/>
                             <constraint firstItem="OYJ-Nt-Pj2" firstAttribute="centerX" secondItem="NtD-tA-d0i" secondAttribute="centerX" id="xmF-na-rul"/>
                         </constraints>
@@ -108,9 +124,13 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red" translatesAutoresizingMaskIntoConstraints="NO" id="oBU-m3-tP8">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qq8-xA-BWO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xtT-8D-7N5">
-                                <rect key="frame" x="20" y="565.5" width="335" height="70"/>
-                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="45"/>
+                                <rect key="frame" x="20" y="566" width="335" height="69"/>
+                                <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="45"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -118,14 +138,18 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Qq8-xA-BWO" firstAttribute="bottom" secondItem="sYg-dp-5Ve" secondAttribute="bottom" id="2eu-SD-qeI"/>
                             <constraint firstItem="xtT-8D-7N5" firstAttribute="centerY" secondItem="5OU-VR-6PE" secondAttribute="centerY" multiplier="1.8" id="Hq8-Gu-XLv"/>
                             <constraint firstItem="xtT-8D-7N5" firstAttribute="centerX" secondItem="5OU-VR-6PE" secondAttribute="centerX" id="Ihb-Zn-49e"/>
                             <constraint firstItem="sYg-dp-5Ve" firstAttribute="trailing" secondItem="xtT-8D-7N5" secondAttribute="trailing" constant="20" id="K3g-oF-CME"/>
                             <constraint firstItem="xtT-8D-7N5" firstAttribute="leading" secondItem="sYg-dp-5Ve" secondAttribute="leading" constant="20" id="Ra9-Py-meF"/>
                             <constraint firstItem="oBU-m3-tP8" firstAttribute="trailing" secondItem="sYg-dp-5Ve" secondAttribute="trailing" id="Ty3-fw-75h"/>
                             <constraint firstItem="oBU-m3-tP8" firstAttribute="leading" secondItem="sYg-dp-5Ve" secondAttribute="leading" id="Uol-Vw-y6t"/>
+                            <constraint firstItem="Qq8-xA-BWO" firstAttribute="leading" secondItem="sYg-dp-5Ve" secondAttribute="leading" id="s4V-Ex-G98"/>
                             <constraint firstItem="oBU-m3-tP8" firstAttribute="bottom" secondItem="sYg-dp-5Ve" secondAttribute="bottom" id="sIa-ii-oRI"/>
+                            <constraint firstItem="Qq8-xA-BWO" firstAttribute="top" secondItem="5OU-VR-6PE" secondAttribute="top" id="wcv-eI-QG0"/>
                             <constraint firstItem="oBU-m3-tP8" firstAttribute="top" secondItem="5OU-VR-6PE" secondAttribute="top" id="wmE-gC-3iW"/>
+                            <constraint firstItem="Qq8-xA-BWO" firstAttribute="trailing" secondItem="sYg-dp-5Ve" secondAttribute="trailing" id="yCT-fj-L8r"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sYg-dp-5Ve"/>
                     </view>
@@ -144,7 +168,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
+                            <fontDescription key="fontDescription" name="Lobster-Regular" family="Lobster" pointSize="30"/>
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
                             <fontDescription key="fontDescription" type="system" pointSize="24"/>

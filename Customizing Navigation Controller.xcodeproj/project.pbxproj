@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4215D29204E045C0077E543 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4215D28204E045C0077E543 /* Lobster-Regular.ttf */; };
 		D4EC21E1204CDD240082316E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC21E0204CDD240082316E /* AppDelegate.swift */; };
 		D4EC21E3204CDD240082316E /* First_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC21E2204CDD240082316E /* First_VC.swift */; };
 		D4EC21E6204CDD240082316E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EC21E4204CDD240082316E /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4215D28204E045C0077E543 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
 		D4EC21DD204CDD240082316E /* Customizing Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Customizing Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EC21E0204CDD240082316E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4EC21E2204CDD240082316E /* First_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_VC.swift; sourceTree = "<group>"; };
@@ -64,9 +66,7 @@
 				D4EC21F2204CDED80082316E /* Resources */,
 				D4EC21E0204CDD240082316E /* AppDelegate.swift */,
 				D4EC21E4204CDD240082316E /* Main.storyboard */,
-				D4EC21E7204CDD240082316E /* Assets.xcassets */,
 				D4EC21E9204CDD240082316E /* LaunchScreen.storyboard */,
-				D4EC21EC204CDD240082316E /* Info.plist */,
 			);
 			path = "Customizing Navigation Controller";
 			sourceTree = "<group>";
@@ -74,6 +74,9 @@
 		D4EC21F2204CDED80082316E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D4215D28204E045C0077E543 /* Lobster-Regular.ttf */,
+				D4EC21E7204CDD240082316E /* Assets.xcassets */,
+				D4EC21EC204CDD240082316E /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4EC21EB204CDD240082316E /* LaunchScreen.storyboard in Resources */,
+				D4215D29204E045C0077E543 /* Lobster-Regular.ttf in Resources */,
 				D4EC21E8204CDD240082316E /* Assets.xcassets in Resources */,
 				D4EC21E6204CDD240082316E /* Main.storyboard in Resources */,
 			);
@@ -316,7 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7NM5JA8Q5L;
-				INFOPLIST_FILE = "Customizing Navigation Controller/Info.plist";
+				INFOPLIST_FILE = "Customizing Navigation Controller/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yusif-the-ios-developer.Customizing-Navigation-Controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -331,7 +335,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7NM5JA8Q5L;
-				INFOPLIST_FILE = "Customizing Navigation Controller/Info.plist";
+				INFOPLIST_FILE = "Customizing Navigation Controller/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yusif-the-ios-developer.Customizing-Navigation-Controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
