@@ -3,7 +3,7 @@
 
 import UIKit
 
-class Main_VC: UIViewController {
+class First_VC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }

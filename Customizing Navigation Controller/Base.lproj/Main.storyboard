@@ -10,19 +10,100 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--MainVC-->
+        <!--FirstVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="Main_VC" customModule="Customizing_Navigation_Controller" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="First_VC" customModule="Customizing_Navigation_Controller" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLZ-hB-glv">
+                                <rect key="frame" x="20" y="298" width="335" height="71"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="49"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hcl-Du-oVa" kind="show" id="H6d-sb-gHk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LLZ-hB-glv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="AuP-zA-CIr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LLZ-hB-glv" secondAttribute="trailing" constant="20" id="FyL-jD-YEc"/>
+                            <constraint firstItem="LLZ-hB-glv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rRf-Fd-o8b"/>
+                            <constraint firstItem="LLZ-hB-glv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zcM-tq-ndk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--SecondVC-->
+        <scene sceneID="xGp-6C-LoU">
+            <objects>
+                <viewController id="hcl-Du-oVa" customClass="Second_VC" customModule="Customizing_Navigation_Controller" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NtD-tA-d0i">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OYJ-Nt-Pj2">
+                                <rect key="frame" x="20" y="298" width="335" height="71"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="49"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Jhn-in-xQa" kind="show" id="lDM-Yx-tiG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OYJ-Nt-Pj2" firstAttribute="centerY" secondItem="NtD-tA-d0i" secondAttribute="centerY" id="WDm-Q0-zE6"/>
+                            <constraint firstItem="OYJ-Nt-Pj2" firstAttribute="leading" secondItem="Exm-5C-BbG" secondAttribute="leading" constant="20" id="hnT-Eo-QHh"/>
+                            <constraint firstItem="Exm-5C-BbG" firstAttribute="trailing" secondItem="OYJ-Nt-Pj2" secondAttribute="trailing" constant="20" id="vR9-zq-faj"/>
+                            <constraint firstItem="OYJ-Nt-Pj2" firstAttribute="centerX" secondItem="NtD-tA-d0i" secondAttribute="centerX" id="xmF-na-rul"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Exm-5C-BbG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NcF-Qr-1zP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="751" y="34"/>
+        </scene>
+        <!--ThirdVC-->
+        <scene sceneID="m89-N9-jih">
+            <objects>
+                <viewController id="Jhn-in-xQa" customClass="Third_VC" customModule="Customizing_Navigation_Controller" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5OU-VR-6PE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xtT-8D-7N5">
+                                <rect key="frame" x="20" y="298" width="335" height="71"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="49"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xtT-8D-7N5" firstAttribute="centerY" secondItem="5OU-VR-6PE" secondAttribute="centerY" id="Hq8-Gu-XLv"/>
+                            <constraint firstItem="xtT-8D-7N5" firstAttribute="centerX" secondItem="5OU-VR-6PE" secondAttribute="centerX" id="Ihb-Zn-49e"/>
+                            <constraint firstItem="sYg-dp-5Ve" firstAttribute="trailing" secondItem="xtT-8D-7N5" secondAttribute="trailing" constant="20" id="K3g-oF-CME"/>
+                            <constraint firstItem="xtT-8D-7N5" firstAttribute="leading" secondItem="sYg-dp-5Ve" secondAttribute="leading" constant="20" id="Ra9-Py-meF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sYg-dp-5Ve"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E6I-5E-725" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1470" y="34"/>
         </scene>
     </scenes>
 </document>
