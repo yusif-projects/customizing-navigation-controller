@@ -10,6 +10,15 @@ class First_VC: UIViewController {
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController?.navigationBar.shadowImage = UIImage()
         
+        //set_custom_title()
+        set_custom_back_image()
+    }
+    
+    func set_custom_back_image(){
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+    }
+    
+    func set_custom_title(){
         let label_1 = UILabel()
         
         label_1.text = "first"
@@ -29,6 +38,6 @@ class First_VC: UIViewController {
         sv.frame.size.width = label_1.frame.width + label_2.frame.width
         sv.frame.size.height = max(label_1.frame.height, label_2.frame.height)
         
-        //navigationItem.titleView = sv
+        navigationItem.titleView = sv
     }
 }
