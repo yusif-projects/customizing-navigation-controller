@@ -163,7 +163,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qa9-0w-pUz" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="kY5-ai-YoT">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" backIndicatorImage="arrow" backIndicatorTransitionMaskImage="arrow" id="kY5-ai-YoT">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -185,6 +185,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="arrow" width="54" height="50"/>
         <image name="green" width="2200" height="1467"/>
         <image name="red" width="1920" height="1280"/>
         <image name="yellow" width="1920" height="1440"/>
