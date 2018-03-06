@@ -9,6 +9,8 @@ class First_VC: UIViewController {
         
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController?.navigationBar.shadowImage = UIImage()
+        navigationController?.navigationBar.backIndicatorImage = #imageLiteral(resourceName: "arrow")
+        navigationController?.navigationBar.backIndicatorTransitionMaskImage = #imageLiteral(resourceName: "arrow")
         
         //set_custom_title()
         set_custom_back_image()
